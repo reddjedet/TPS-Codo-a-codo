@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/e77a98ef70.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" type="text/css" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      /* full responsive */
+      .carousel-inner img {
+        width: 100%;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hacé tu pedido y relajate mientras llega tu comida"
+    />
+    <!--Estuve teniendo problemas al pasar el icono a svg-->
+    <link rel="shortcut icon" href="assets/img/pya.png" />
+    <title>¡Pedilo Ya!</title>
+  </head>
+
+  <body>
+    <header>
+      <br />
+      <nav class="shift">
+        <ul>
+          <li><a class="nav" href="index.html">Inicio</a></li>
+          <li><a class="nav" href="offers.html">Ofertas del día</a></li>
+          <li><a class="nav" href="location.html">Sucursales</a></li>
+          <li>
+            <a class="nav" href="nuestrosClientes.html"
+              >Opinion de nuestros clientes</a
+            >
+          </li>
+          <li><a class="nav" href="form.html">Dejanos tu cv</a></li>
+        </ul>
+      </nav>
+      <h1>¡Pedilo Ya!</h1>
+    </header>
+
+    <!--Carrousel-->
+    <!--Carrousel-->
+    <div class="container" style="width: 50em">
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <div
+        id="myCarousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="2200"
+      >
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <!-- myCarousel es el id del carrusel, todos = -->
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- indica que empieza con este item -->
+            <img src="assets/img/1.jpg" alt="uno" width="1100" height="500" />
+            <div class="carousel-caption">
+              <!-- texto del item del carrusel-->
+              <h3>uno</h3>
+              <!-- este es el texto -->
+              <p>mensaje uno</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/2.jpg" alt="dos" width="1100" height="500" />
+            <div class="carousel-caption">
+              <h3>dos</h3>
+              <p>mensaje dos</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/3.jpg" alt="tres" width="1100" height="500" />
+            <div class="carousel-caption">
+              <h3>tres</h3>
+              <p>mensaje tres</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/4.jpg"
+              alt="cuatro"
+              width="1100"
+              height="500"
+            />
+            <div class="carousel-caption">
+              <h3>cuatro</h3>
+              <p>mensaje cuatro</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <br /><br />
+  </body>
+  <footer>
+    <a href="https://www.twitter.com" target="_blank"
+      ><i class="fa fa-twitter" aria-hidden="true"></i
+    ></a>
+    <a href="https://www.facebook.com" target="_blank"
+      ><i class="fa fa-facebook" aria-hidden="true"></i
+    ></a>
+    <a href="https://www.instagram.com" target="_blank"
+      ><i class="fa fa-instagram" aria-hidden="true"></i
+    ></a>
+    <p>Derechos reservados @2021</p>
+  </footer>
+</html>

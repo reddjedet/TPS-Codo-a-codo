@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/e77a98ef70.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" type="text/css" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hacé tu pedido y relajate mientras llega tu comida"
+    />
+        <!--Estuve teniendo problemas al pasar el icono a svg-->
+    <link rel="shortcut icon" href="assets/img/pya.png">
+    <title>Registro</title>
+</head>
+
+<body>
+  <header>
+    <br />
+      <nav class="shift">
+        <ul>
+          <li><a class="nav" href="index.html">Inicio</a></li>
+          <li><a class="nav" href="offers.html">Ofertas del día</a></li>
+          <li><a class="nav" href="location.html">Sucursales</a></li>
+          <li>
+            <a class="nav" href="nuestrosClientes.html"
+              >Opinion de nuestros clientes</a
+            >
+          </li>
+          <li><a class="nav" href="form.html">Dejanos tu cv</a></li>
+        </ul>
+      </nav>
+    <h1>¡Pedilo Ya!</h1>
+  </header>
+  <body style="background-image: url('assets/img/job.jpg');">
+
+  <menu>
+    <h2>Dejanos tus datos: </h2>
+
+    <div class="contenedor">
+    <form action="show_data.html" target="_blank">
+      <label for "firstname"> Nombre: </label>
+      <input type="text" name="firstname" placeholder="Ingrese su nombre aqui..."><br><br>
+      <label for "lastname"> Apellido: </label><input type="text" name="lastname"
+        placeholder="Ingrese su apellido aqui..."><br><br>
+      <label for "street"> Direccion: </label><input type="text" name="adress"
+        placeholder="Ingrese su direccion aqui..."><br><br>
+      <label for "city"> Ciudad: </label><input type="text" name="city" placeholder="Ciudad donde reside"><br><br>
+      <label for "zipcode"> Codigo Postal: </label><input type="text" name="zipcode"
+        placeholder="Ingrese su codigo postal aqui..."><br><br>
+      <label for "BirthDate"> Fecha de nacimiento: </label> <input type="text" name="birthdate"
+        placeholder="mm/dd/yyyy"><br><br>
+      <p>Género 
+        <input type="radio" name="gender" value="Masculino" checked>Masculino
+        <input type="radio" name="gender" value="Femenino">Femenino
+        <input type="radio" name="gender" value="Otro">Otro
+      </p>
+      <p> Estudios:
+        <input type="checkbox" name="Estudio" value="Primarios">Primarios
+        <input type="checkbox" name="Estudio" value="Secundarios">Secundarios
+        <input type="checkbox" name="Estudio" value="Terciarios">Terciarios
+        <input type="checkbox" name="Estudio" value="Universitarios">Universitarios
+        <input type="checkbox" name="Estudio" value="Otros">Otros
+      </p>
+      <input type="submit" value="Enviar">
+    </form>
+  <div class="cvblock"></div>
+    </div>
+
+    <br><br>
+    <p id="formspan">Al hacer click se enviaran sus datos a la página> "show_data.html".</p>
+    <br><br>
+  </menu>
+</body>
+<footer>
+<footer>
+  <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  <p>Derechos reservados @2020</p>
+</footer>
+</html>
